@@ -1,0 +1,23 @@
+/*this is my css*/
+
+.blue{
+    color:blue;
+}
+/* box model */
+
+.boxparent{
+    border:1px yellow
+    float:left;
+}
+.box1{
+    width:200px;
+    height:200px;
+    background-color:#ff0000;
+    float:left;
+}
+.box2{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    float:left;
+}

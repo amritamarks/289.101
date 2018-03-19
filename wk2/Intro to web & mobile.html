@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <style>
+       
+        div p {
+            color: violet;
+        }
+        div > p1 {
+            color:red
+            
+        }
+        div + p2 {
+            color:blue
+        }
+        
+        p2 ~ ul {
+            color: orange
+        }
+        
+        em.phrase {
+            color: pink
+        }
+        </style>
+    </head>
+ <body>
+   
+ <p>leave this text as the default black</p>
+     
+   <ol><div>  
+    <li><p>make the text for list items 1 and 2 violet using a descendant selector</p></li>
+     <li><p>make the text for list items 1 and 2 violet using a descendant selector</p></li>
+   
+     </div>
+       </ol>
+   
+   <div> 
+<p1>make this text red using a child selector</p1>
+       </div>
+     <p2>make this text blue using an adjacent selector</p2>
+    
+
+<ul>
+
+<li>make this text orange using a general sibling selector; <em class="phrase">and this phrase pink by combining 2 types of selectors</em></li>
+</ul>
+<body/> 
