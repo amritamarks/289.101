@@ -7,27 +7,35 @@ div {
 }
 
 .container {
-    width:900px;
+    width: 920px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .header {
-    width:900px;
+    width: 920px;
     background-color: blue;
-    height:200px;
+    height: 200px;
 }
 
-.redbox {
-    width:300px;
-    height:500px;
+.redcontainer {
+    width: 920px;
+    height: 400px;
     background-color: red;
+}
+
+.yellowbox {
+    width: 430px;
+    height: 360px;
+    background-color: yellow;
     float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+
 }
 
 .greenbox {
-    width: 900px;
+    width: 920px;
     height: 200px;
     background-color: green;
-    float: left;
 }

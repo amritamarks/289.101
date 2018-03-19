@@ -1,0 +1,50 @@
+body{
+   
+}
+
+div {
+    outline: 1px solid lime;
+}
+
+.container {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    width: 920px;
+    background-color: blue;
+    height: 200px;
+}
+
+.greencontainer {
+    width: 920px;
+    height: 200px;
+    background-color: green;
+}
+
+.yellowbox {
+    width: 430px;
+    height: 160px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.redcontainer {
+    width: 920px;
+    height: 500px;
+    background-color: red;
+    
+}
+
+.yellowboxes {
+    width: 430px;
+    height: 460px;
+    background-color: yellow;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
