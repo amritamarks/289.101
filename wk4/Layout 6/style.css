@@ -1,0 +1,52 @@
+body{
+   
+}
+
+div {
+    outline: 1px solid lime;
+}
+
+.container {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    width: 460px;
+    background-color: blue;
+    height: 200px;
+    float: left;
+}
+
+.green {
+    width: 920px;
+    height: 200px;
+    background-color: green;
+    float: left;
+}
+
+.red {
+    width: 920px;
+    height: 475px;
+    background-color: red;
+    float: left;
+}
+
+.yellowsquare {
+    width: 192.5px;
+    height: 192.5px;
+    background-color: yellow;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.yellowrectangle {
+    width: 415px;
+    height: 192.5px;
+    background-color: yellow;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}

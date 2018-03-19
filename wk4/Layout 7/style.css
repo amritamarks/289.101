@@ -1,0 +1,163 @@
+body{
+   
+}
+
+div {
+    outline: 5px solid black;
+}
+
+.container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    width: 900px;
+    background-color: blue;
+    height: 100px;
+    float: left;
+}
+
+.yellow1 {
+    width: 280px;
+    height: 60px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;  
+}
+
+.yellow2 {
+    width: 560px;
+    height: 60px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.greenrectangle {
+    width: 900px;
+    height: 500px;
+    float: left;
+    background-color: lawngreen;
+}
+
+.redrectangle {
+    width: 900px;
+    height: 400px;
+    float: left;
+    background-color: red;
+}
+
+.yellow3 {
+    width: 860px;
+    height: 100px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.yellow4 {
+    width: 273.33px;
+    height: 240px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.bluecontainer {
+    width: 900px;
+    height: 750px;
+    background-color: blue;
+    float: left;
+}
+
+.yellow5 {
+    width: 860px;
+    height: 100px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+
+.yellow6 { 
+    width: 200px;
+    height: 183.33px;
+    float: left;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.greenrectangle2 {
+    width: 900px;
+    height: 600px;
+    background-color: lawngreen;
+    float: left;
+}
+
+.yellow7 {
+    width: 860px;
+    height: 150px;
+    background-color: yellow;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.yellow8 {
+    width: 273.33px;
+    height: 390px;
+    background-color: yellow;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.redrectangle {
+    width: 900px;
+    height: 600px;
+    background-color: red;
+    float: left;
+}
+
+.yellow9 {
+    width: 860px;
+    height: 140px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.yellow10 {
+    width: 560px; 
+    height: 400px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.yellow11 {
+    width: 280px;
+    height: 250px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.bluecontainer2 {
+    width: 900px;
+    height: 80px;
+    background-color: blue;
+    float: left;
+}
+
