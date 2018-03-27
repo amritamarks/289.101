@@ -65,23 +65,188 @@ div {
     width: 90%;
 }
 
-.services {
-    background-color: white;
+.whitebox {
+    background-color: #f2f2f2
     height: 500px;
 }
 
-.servicesheader {
-    height: 130px; 
+.services {
+    height: 110px; 
     padding-top: 40px;
-    padding-left: 30px;
+    padding-left: 40px;
     
 }
 
-.headertext {
+.servicestext {
     font-family: 'Lato', sans-serif;
     font-size: 1.4rem;
-    color: 666d89;
+    color: #666d89;
+    font-style: bold;
 }
+
+.servicesbody {
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #666d89;
+}
+
+.textcontainer {
+    font-family: 'Lato', sans-serif;
+    height: 200px; 
+    color: #666d89;
+    padding-left: 40px;
+}
+
+.custom {
+    height: 80px;
+    width: 220px;
+    margin-left: auto;
+    margin-top: auto; 
+    float: left;
+    
+    
+}
+
+.customtitle {
+    font-size: 1.rem;
+    
+}
+
+.custombody {
+    font-size: 0.75rem;
+    padding-top: 10px;
+    
+}
+
+.innovative {
+    height: 80px;
+    width: 220px;
+    margin-left: auto;
+    margin-top: auto; 
+    float: left;
+    padding-left: 100px;
+}
+
+
+.innovativetitle {
+    font-size: 1.rem;
+}
+
+
+.innovativebody {
+    font-size: 0.75rem;
+    padding-top: 10px;
+}
+
+
+.love {
+    height: 80px;
+    width: 220px;
+    margin-left: auto;
+    margin-top: auto; 
+    float: left;
+    padding-left: 100px;
+}
+
+.lovetitle {
+    font-size: 1.rem;
+}
+
+.lovebody {
+    font-size: 0.75rem;
+    padding-top: 10px;
+}
+
+.responsive {
+    height: 80px;
+    width: 220px;
+    margin-left: auto;
+    margin-top: auto; 
+    float: left;
+    padding-top: 30px;
+    
+}
+
+.responsivetitle {
+    font-size: 1.rem;
+}
+
+.responsivebody {
+    font-size: 0.75rem;
+    padding-top: 10px;
+}
+
+.support {
+    height: 80px;
+    width: 220px;
+    margin-left: auto;
+    margin-top: auto; 
+    float: left;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.supporttitle {
+    font-size: 1.rem;
+}
+
+.supportbody {
+    font-size: 0.75rem;
+    padding-top: 10px;
+}
+
+.feel {
+    height: 80px;
+    width: 220px;
+    margin-left: auto;
+    margin-top: auto; 
+    float: left;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.feeltitle {
+    font-size: 1.rem;
+}
+
+.feelbody {
+    font-size: 0.75rem;
+    padding-top: 10px;
+}
+
+
+
+.blackcontainer {
+    height: 800px;
+    background-color: #2d303a;
+}
+
+.portfolio {
+    padding-top: 40px;
+    padding-left: 40px;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.portfoliotitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    color: #666d89; 
+}
+
+.portfoliobody {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.85rem;
+    color: #666d89; 
+    padding-top: 10px;
+}
+
+.blackcontainer img {
+    padding-top: 50px;
+}
+
+
 
 
 
