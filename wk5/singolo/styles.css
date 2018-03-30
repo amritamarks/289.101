@@ -7,7 +7,7 @@ body {
 }
 
 div {
-    outline: 1px solid lime;
+   outline: 1px solid lime;
 }
 
 .header {
@@ -54,8 +54,8 @@ div {
     background-color: #f06c64;
     padding: 20px 0;
     text-align: center;
-
 }
+
 .active{
      color: #f06c64;
 }
@@ -66,14 +66,25 @@ div {
 }
 
 .whitebox {
-    background-color: #f2f2f2
-    height: 500px;
+    background-color: #f2f2f2;
+    height: 400px;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whitebox img {
+    
 }
 
 .services {
     height: 110px; 
+    width: 700px;
     padding-top: 40px;
     padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
     
 }
 
@@ -82,6 +93,7 @@ div {
     font-size: 1.4rem;
     color: #666d89;
     font-style: bold;
+    
 }
 
 .servicesbody {
@@ -96,21 +108,17 @@ div {
     height: 200px; 
     color: #666d89;
     padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .custom {
     height: 80px;
     width: 220px;
-    margin-left: auto;
-    margin-top: auto; 
-    float: left;
-    
-    
 }
 
 .customtitle {
     font-size: 1.rem;
-    
 }
 
 .custombody {
@@ -122,10 +130,7 @@ div {
 .innovative {
     height: 80px;
     width: 220px;
-    margin-left: auto;
-    margin-top: auto; 
-    float: left;
-    padding-left: 100px;
+ 
 }
 
 
@@ -143,10 +148,6 @@ div {
 .love {
     height: 80px;
     width: 220px;
-    margin-left: auto;
-    margin-top: auto; 
-    float: left;
-    padding-left: 100px;
 }
 
 .lovetitle {
@@ -160,12 +161,8 @@ div {
 
 .responsive {
     height: 80px;
-    width: 220px;
-    margin-left: auto;
-    margin-top: auto; 
-    float: left;
-    padding-top: 30px;
-    
+    width: 220px; 
+    padding-top: 30px;  
 }
 
 .responsivetitle {
@@ -180,10 +177,6 @@ div {
 .support {
     height: 80px;
     width: 220px;
-    margin-left: auto;
-    margin-top: auto; 
-    float: left;
-    padding-left: 100px;
     padding-top: 30px;
 }
 
@@ -198,11 +191,7 @@ div {
 
 .feel {
     height: 80px;
-    width: 220px;
-    margin-left: auto;
-    margin-top: auto; 
-    float: left;
-    padding-left: 100px;
+    width: 220px; 
     padding-top: 30px;
 }
 
@@ -215,24 +204,23 @@ div {
     padding-top: 10px;
 }
 
-
-
 .blackcontainer {
-    height: 800px;
+    height: 700px;
     background-color: #2d303a;
+    margin-left: auto;
+    margin-top: auto;
 }
 
 .portfolio {
     padding-top: 40px;
     padding-left: 40px;
-    margin-left: auto;
-    margin-top: auto;
 }
 
 .portfoliotitle {
     font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
     color: #666d89; 
+    padding-left: 10px;
 }
 
 .portfoliobody {
@@ -240,14 +228,142 @@ div {
     font-size: 0.85rem;
     color: #666d89; 
     padding-top: 10px;
+    padding-left: 10px;
 }
 
 .blackcontainer img {
     padding-top: 50px;
+    max-width: 780px;
+    margin-left: auto;
+    margin-top: auto;
 }
 
+.container1 {
+    float: left;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
 
+.container2 {
+    float: left;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
 
+.container3 {
+    float: left;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    
+}
 
+.textcontainer img {
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.whitecontainer {
+    height: 500px;
+    background-color: #f2f2f2;
+    margin-left: auto;
+    margin-top: auto;
+}
 
+.textbox {
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+.titlebox {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    color: #666d89;
+    font-style: bold;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textunderneath {
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #666d89;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageperson1 {
+    height: 400px;
+}
+
+.peopleboxes {
+    font-family: 'Lato', sans-serif;
+    height: 200px;
+    width: 900px;
+    color: #666d89;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.textunderneath img {
+
+    padding-top: 30px;
+    max-width: 920px;
+}
+
+.person1 {
+    padding-top: 10px;
+    width: 300px;
+    float: left;
+}
+
+.person1title {
+    font-size: 0.95rem;
+    color: #666d89;
+    font-family: 'Lato', sans-serif;
+}
+
+.person1body {
+    font-size: 0.75rem;
+    color: #666d89;
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+}
+
+.person1 img {
+    padding-top: 15px;
+}
+
+.person2 {
+    padding-top: 0px;
+    width: 300px; 
+    float: left;
+}
+
+.person2title {
+    font-size: 0.95rem;
+    color: #666d89;
+    font-family: 'Lato', sans-serif;
+}
+
+.person2body {
+    font-size: 0.75rem;
+    color: #666d89;
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+}
