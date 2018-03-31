@@ -7,7 +7,7 @@ body {
 }
 
 div {
-   outline: 1px solid lime;
+   outline: 
 }
 
 .header {
@@ -68,24 +68,27 @@ div {
 .whitebox {
     background-color: #f2f2f2;
     height: 400px;
-    max-width: 950px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .whitebox img {
-    
+    float: left;
+    height: 200px;
+    padding-right: 20px;
+}
+
+.container1 img {
+    float: left; 
 }
 
 .services {
     height: 110px; 
-    width: 700px;
+    width: 1200px;
     padding-top: 40px;
     padding-left: 40px;
-    margin-right: auto;
-    margin-left: auto;
     float: left;
-    
 }
 
 .servicestext {
@@ -93,7 +96,6 @@ div {
     font-size: 1.4rem;
     color: #666d89;
     font-style: bold;
-    
 }
 
 .servicesbody {
@@ -107,14 +109,14 @@ div {
     font-family: 'Lato', sans-serif;
     height: 200px; 
     color: #666d89;
-    padding-left: 40px;
+    padding-left: 20px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .custom {
     height: 80px;
-    width: 220px;
+    width: 300px;
 }
 
 .customtitle {
@@ -124,13 +126,11 @@ div {
 .custombody {
     font-size: 0.75rem;
     padding-top: 10px;
-    
 }
 
 .innovative {
     height: 80px;
-    width: 220px;
- 
+    width: 300px;
 }
 
 
@@ -147,7 +147,7 @@ div {
 
 .love {
     height: 80px;
-    width: 220px;
+    width: 300px;
 }
 
 .lovetitle {
@@ -161,7 +161,7 @@ div {
 
 .responsive {
     height: 80px;
-    width: 220px; 
+    width: 300px; 
     padding-top: 30px;  
 }
 
@@ -176,7 +176,7 @@ div {
 
 .support {
     height: 80px;
-    width: 220px;
+    width: 300px;
     padding-top: 30px;
 }
 
@@ -191,7 +191,7 @@ div {
 
 .feel {
     height: 80px;
-    width: 220px; 
+    width: 300px; 
     padding-top: 30px;
 }
 
@@ -205,15 +205,18 @@ div {
 }
 
 .blackcontainer {
-    height: 700px;
+    height: 1050px;
     background-color: #2d303a;
     margin-left: auto;
-    margin-top: auto;
+    margin-right: auto;
 }
 
 .portfolio {
     padding-top: 40px;
-    padding-left: 40px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
 }
 
 .portfoliotitle {
@@ -231,11 +234,19 @@ div {
     padding-left: 10px;
 }
 
+
+
+.blackbodyimage {
+    text-align: center;
+}
+
 .blackcontainer img {
     padding-top: 50px;
-    max-width: 780px;
-    margin-left: auto;
-    margin-top: auto;
+    width: 1200px;
+}
+
+.blackbodyimage2 img {
+    width: 400px;
 }
 
 .container1 {
@@ -244,6 +255,7 @@ div {
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
+    padding-right: 80px;
 }
 
 .container2 {
@@ -252,6 +264,7 @@ div {
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
+    padding-right: 80px;
 }
 
 .container3 {
@@ -260,7 +273,7 @@ div {
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
-    
+    padding-right: 80px;
 }
 
 .textcontainer img {
@@ -270,7 +283,7 @@ div {
 }
 
 .whitecontainer {
-    height: 500px;
+    height: 600px;
     background-color: #f2f2f2;
     margin-left: auto;
     margin-top: auto;
@@ -279,7 +292,7 @@ div {
 .textbox {
     height: 100px;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 40px;
     margin-left: auto;
     margin-right: auto;
     width: 900px;
@@ -289,7 +302,6 @@ div {
     font-family: 'Lato', sans-serif;
     font-size: 1.4rem;
     color: #666d89;
-    font-style: bold;
     padding-left: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -321,14 +333,15 @@ div {
 }
 
 .textunderneath img {
-
     padding-top: 30px;
     max-width: 920px;
 }
 
 .person1 {
     padding-top: 10px;
-    width: 300px;
+    padding-right: 15px;
+    padding-left: 25px;
+    width: 285px;
     float: left;
 }
 
@@ -350,9 +363,10 @@ div {
 }
 
 .person2 {
-    padding-top: 0px;
-    width: 300px; 
+    padding-top: 10px;
+    width: 285px; 
     float: left;
+    padding-right: 20px;
 }
 
 .person2title {
@@ -366,4 +380,154 @@ div {
     color: #666d89;
     font-family: 'Lato', sans-serif;
     padding-top: 10px;
+}
+
+.person2 img {
+    padding-top: 15px;
+}
+
+.person3 {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.person3title {
+    font-size: 0.95rem;
+    color: #666d89;
+    font-family: 'Lato', sans-serif;
+}
+
+.person3body {
+    font-size: 0.75rem;
+    color: #666d89;
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+}
+
+.person3 img {
+    padding-top: 15px;
+}
+
+.redcontainer {
+    height: 700px;
+    background-color: #f06c64;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quotetitle {
+    padding-left: 30px;
+    padding-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    color: #f0d8d9;
+}
+
+.quotebody {
+    font-size: 0.95rem;
+    color: #f0d8d9;
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.boxes {
+    width: 850px;
+    float: left;
+}
+
+.redbox1 {
+    height: 65px;
+    width: 800px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.redbox1text {
+    font-size: 0.75rem;
+    height: 30px;
+    background-color: #d6564f;
+    color: #e26c69;
+    font-family: 'Lato', sans-serif;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.redbox2 {
+    height: 65px;
+    width: 800px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.redbox2text {
+    font-size: 0.75rem;
+    height: 30px;
+    background-color: #d6564f;
+    color: #e26c69;
+    font-family: 'Lato', sans-serif;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.redbox3 {
+    height: 65px;
+    width: 800px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.redbox3text {
+    font-size: 0.75rem;
+    height: 30px;
+    background-color: #d6564f;
+    color: #e26c69;
+    font-family: 'Lato', sans-serif;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.redbox4 {
+    height: 230px;
+    width: 800px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.redbox4text {
+    font-size: 0.75rem;
+    height: 200px;
+    background-color: #d6564f;
+    color: #e26c69;
+    font-family: 'Lato', sans-serif;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.contactinfobox {
+    height: 300px;
+    width: 450px;
+    float: left;
+}
+
+.contactinfotitle {
+    padding-left: 30px;
+    padding-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.95rem;
+    color: #f0d8d9;
+}
+
+.contactinfobody {
+    font-size: 0.75rem;
+    color: #f0d8d9;
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 500px;
+}
+
+.contactinfobox img {
+    padding-top: 20px;
+    padding-left: 30px;
 }
