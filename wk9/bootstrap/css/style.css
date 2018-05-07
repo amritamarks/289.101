@@ -1,3 +1,23 @@
 body{
-    background-color: red;
+    
+}
+
+.blue {
+    background-color: cornflowerblue;
+    height: 40px;
+}
+
+.green {
+    background-color: chartreuse;
+    height: 120px;
+}
+
+.orange {
+    background-color: orange;
+    height: 150px;
+}
+
+.grey {
+    background-color: lightgrey;
+    height: 80px;
 }
