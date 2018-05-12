@@ -1,5 +1,33 @@
-blue{
+.container {
+   height: 1260px;
+}
+
+.blue {
     background-color: lightblue;
     height: 80px;
-    
 }
+
+.green {
+    background-color: darkseagreen;
+    height: 80px;
+}
+
+.orange {
+    background-color: orange;
+    height: 700px;
+}
+
+.red {
+    background-color: darkred;
+    height: 400px;
+}
+
+.grey {
+    background-color: grey;
+    height: 200px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
