@@ -38,7 +38,7 @@
       #eye_left, #eye_right {
         position: absolute;
         width: 50px;
-          margin: auto;
+        margin: auto;
       }
 
       #mouth {
@@ -182,7 +182,9 @@
           
           document.getElementById('mouth').src='mouth_sad.svg';
           
-      });
+      }); 
+      
+      
       
        // reset face
       document.getElementById('reset_face_btn').addEventListener('click', function(){
@@ -193,15 +195,11 @@
           document.getElementById('eye_left').style.width = eye_left_x + 'px';
           
           
-          
-          
           document.getElementById('eye_right').src="eye_solid.svg";
           
           eye_right_x =50;
           document.getElementById('eye_right').style.width = eye_right_x + 'px';
           
-          
-         
           
           document.getElementById('mouth').src='mouth_happy.svg';
           
