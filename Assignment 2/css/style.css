@@ -18,43 +18,39 @@ div {
     margin-right: auto;
     position: fixed;
     top: 0;
-    width: 100%;
-    height: 80px;
     background-color: white;
+    width: 100%;
+    height: 90px;
     font-family: 'Lato', sans-serif;
 }
 
 .navigationcontent {
-    max-width: 850px;
-    background-color: white;
     height: 80px;
     margin-left: auto;
     margin-right: auto;
+    width: 1200px;
 }
 
 .firstlinks {
     color: red;
-    float: left;
-    font-size: 1.1rem;
+    float: right;
+    font-size: 1.4rem;
     padding-top: 50px;
 }
 
 .dufflogo {
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    height: 250px;
+    float: left;
+    padding-top: 10px;
 }
 
 .dufflogo img {
-    width: 250px;
-    padding-top: 10px;
+    height: 120px;
 }
 
 .secondlinks {
     color: black;
     float: right;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     padding-top: 50px;
 }
 
@@ -66,11 +62,11 @@ div {
 }
 
 .firstlinks .active {
-    color: #A61C20;
+    color: #DB1F26;
 }
 
 .firstlinks a:hover{
-    color: #A61C20;
+    color: #DB1F26;
 }
 
 .secondlinks a {
@@ -81,13 +77,19 @@ div {
 }
 
 .secondlinks .active {
-    color: #A61C20;
+    color: #DB1F26;
 }
 
 .secondlinks a:hover{
-    color: #A61C20;
+    color: #DB1F26;
 }
-    
+
+.gallerybackground {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
 .galleryimage1 {
     margin-left: auto;
     margin-right: auto;
@@ -97,4 +99,84 @@ div {
 
 .galleryimage1 img {
     width: 1200px;
+}
+
+
+.aboutcontents {
+    height: 700px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redline {
+    height: 5px;
+    background-color: #A61C20;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.yellowrectangle {
+    height: 80px;
+    background-color: #F2BA1A;
+}
+
+.abouttext {
+    font-family: 'Concert One', cursive;
+    font-size: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 265px;
+}
+
+.aboutimg {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutimg img {
+    background-color: blue;
+    float: left;
+    height: 600px;
+}
+
+.abouttextbox {
+    width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutslogan {
+    width: 380px;
+    height: 20px;
+    float: left;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    color: #A61C20;
+}
+
+.abouttextbody {
+    float: left;
+    padding-left: 100px;
+    padding-top: 100px;
+    width: 400px;
+    height: 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.abouttextbody2 {
+    float: left;
+    padding-left: 100px;
+    width: 400px;
+    height: 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: black;
+    padding-top: 10px;
 }
