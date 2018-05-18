@@ -87,7 +87,7 @@ div {
 .gallerybackground {
     width: 100%;
     background-color: white;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .galleryimage1 {
@@ -103,7 +103,7 @@ div {
 
 
 .aboutcontents {
-    height: 700px;
+    height: 710px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
@@ -126,7 +126,7 @@ div {
     font-size: 4rem;
     margin-right: auto;
     margin-left: auto;
-    width: 265px;
+    width: 450px;
 }
 
 .aboutimg {
@@ -179,4 +179,108 @@ div {
     font-size: 1rem;
     color: black;
     padding-top: 10px;
+}
+
+
+.shopcontainer {
+    height: 700px;
+}
+
+.shoptext {
+    font-family: 'Concert One', cursive;
+    font-size: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 130px;
+}
+
+.imgcontainer {
+    height: 500px;
+    width: 250px;
+    padding-left: 300px;
+    float: left;
+    margin-top: 20px;
+}
+
+.shopimg1 img {
+    width: 100px;
+    padding-top: 50px;
+    padding-left: 70px;
+    
+}
+
+.shopimg2 img {
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 200px;
+}
+
+.shoptextcontainer {
+    height: 400px;
+    width: 500px;
+    padding-left: 100px;
+    float: left;
+    margin-top: 120px;
+}
+
+.shoporiginaltextoutline {
+    outline: solid 7px #A61C20;
+    width: 400px;
+    height: 100px;
+    float: left;
+}
+
+.shoporiginaltext {
+    font-family: 'Concert One', cursive;
+    font-size: 3rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.shopzerotextoutline {
+    outline: solid 7px #A61C20;
+    width: 400px;
+    height: 100px;
+    float: left;
+    margin-top: 150px;
+}
+
+.shopzerotext {
+    font-family: 'Concert One', cursive;
+    font-size: 3rem;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+
+.contactcontainer {
+    height: 700px;
+}
+
+.contacttext {
+    font-family: 'Concert One', cursive;
+    font-size: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 220px;
+}
+
+.contactcontent {
+    height: 500px;
+    background-color: blue;
+    margin-top: 45px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fullname {
+    height: 40px;
+    background-color: red;
+}
+
+.fullnametext {
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size; 2rem;
 }
