@@ -63,10 +63,12 @@ div {
 
 .firstlinks .active {
     color: #DB1F26;
+    text-decoration: underline #DB1F26; 
 }
 
 .firstlinks a:hover{
     color: #DB1F26;
+    text-decoration: underline #DB1F26;
 }
 
 .secondlinks a {
@@ -78,10 +80,12 @@ div {
 
 .secondlinks .active {
     color: #DB1F26;
+    text-decoration: underline #DB1F26;
 }
 
 .secondlinks a:hover{
     color: #DB1F26;
+    text-decoration: underline #DB1F26;
 }
 
 .gallerybackground {
@@ -254,7 +258,7 @@ div {
 
 
 .contactcontainer {
-    height: 700px;
+    height: 600px;
 }
 
 .contacttext {
@@ -266,21 +270,109 @@ div {
 }
 
 .contactcontent {
-    height: 500px;
-    background-color: blue;
-    margin-top: 45px;
+    height: 200px;
+    margin-top: 110px;
     width: 650px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .fullname {
-    height: 40px;
-    background-color: red;
+    height: 30px;
 }
 
 .fullnametext {
     float: left;
     font-family: 'Lato', sans-serif;
-    font-size; 2rem;
+    font-size: 1.5rem;
 }
+
+.fullnametextbox {
+    float: right;
+    height: 20px;
+    width: 500px;
+    padding-top: 5px;
+}
+
+.email {
+    height: 30px;
+    margin-top: 15px;
+}
+
+.emailtext {
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 45px;
+}
+
+.emailtextbox {
+    float: right;
+    height: 20px;
+    width: 500px;
+    padding-top: 5px;
+}
+
+.phone {
+    height: 30px;
+    margin-top: 15px;
+}
+
+.phonetext {
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 45px;
+}
+
+.phonetextbox {
+    float: right;
+    height: 20px;
+    width: 500px;
+    padding-top: 5px;
+}
+
+.message {
+    height: 30px;
+    margin-top: 15px;
+}
+
+.messagetext {
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 25px;
+}
+
+.messagetextbox {
+    float: right;
+    height: 20px;
+    width: 500px;
+    padding-top: 10px;
+}
+
+.required {
+    height: 20px;
+    margin-top: 15px;
+}
+
+.requiredtext {
+    float: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem; 
+}
+
+
+.bottomcontainer {
+    height: 80px;
+    background-color: #F2BA1A;
+    width: 100%;
+}
+
+.iconcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    background-color: red;
+}
+
