@@ -425,8 +425,23 @@ div {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    height: 60px;
+    height: 40px;
 }
 
+.facebookicon {
+    height: 40px;
+    width: 40px;
+    font-size: 3rem;
+    padding-top: 5px;
+    float: left;
+}
 
+.instagramicon {
+    height: 40px;
+    width: 40px;
+    font-size: 3rem;
+    padding-top: 5px;
+    float: left;
+    padding-left: 20px;
+}
 
