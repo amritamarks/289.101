@@ -13,7 +13,7 @@ Next, add the following features:
 //declaring puck initial location
 var puck_x = 210;
 var puck_y = 210;
-var speed = 10;
+var speed = 50;
 var puck = document.getElementById('puck');
 
 // adding the coordinates to puck
@@ -36,7 +36,15 @@ function checkCollision() {
     }
 }
 
+function teleportright () {
+    //teleport code goes here
+    if (puck_x > 590){
+    puck.style.left = -10 + 'px';
+    }
+}
 
+
+    
 //move left
 document.getElementById('left').addEventListener('click', function(){
     puck_x -= speed;
@@ -51,6 +59,7 @@ document.getElementById('right').addEventListener('click', function(){
     puck.style.left = puck_x +'px';
     logCoordinates();
     checkCollision();
+    teleportright();
 });
 
 //move up
