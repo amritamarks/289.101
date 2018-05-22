@@ -193,7 +193,7 @@ div {
 
 
 .shopcontainer {
-    height: 700px;
+    height: 750px;
 }
 
 .shoptext {
@@ -416,7 +416,7 @@ div {
 
 
 .bottomcontainer {
-    height: 60px;
+    height: 40px;
     background-color: #F2BA1A;
     width: 100%;
 }
@@ -429,19 +429,19 @@ div {
 }
 
 .facebookicon {
-    height: 40px;
-    width: 40px;
-    font-size: 3rem;
+    height: 20px;
+    width: 20px;
+    font-size: 1.8rem;
     padding-top: 5px;
     float: left;
 }
 
 .instagramicon {
-    height: 40px;
-    width: 40px;
-    font-size: 3rem;
+    height: 20px;
+    width: 20px;
+    font-size: 1.8rem;
     padding-top: 5px;
     float: left;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
