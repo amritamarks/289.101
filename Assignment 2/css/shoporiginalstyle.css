@@ -78,17 +78,17 @@ div {
     margin-left: 35px;
 }
 
-.dufftextoutline a {
+.dufforiginalbox a {
     text-decoration: none;
     color: black;
 }
 
-.dufftextoutline .active {
+.dufforiginalbox .active {
     background-color: #F2BA1A;
     text-decoration: none; 
 }
 
-.dufftextoutline a:hover{
+.dufforiginalbox a:hover{
     background-color: #F2BA1A;
     text-decoration: none;
 }
@@ -145,6 +145,21 @@ div {
     float: right;
     margin-top: -65px;
     padding-right: 5px;
+}
+
+.lastdufforiginalbox a {
+    text-decoration: none;
+    color: black;
+}
+
+.lastdufforiginalbox .active {
+    background-color: #F2BA1A;
+    text-decoration: none; 
+}
+
+.lastdufforiginalbox a:hover{
+    background-color: #F2BA1A;
+    text-decoration: none;
 }
 
 

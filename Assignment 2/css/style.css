@@ -93,7 +93,7 @@ div {
 .gallerybackground {
     width: 100%;
     background-color: white;
-    padding-bottom: 20px;
+    padding-bottom: 45px;
 }
 
 .galleryimage1 {
@@ -221,8 +221,8 @@ div {
 
 .shopimg2 img {
     padding-top: 50px;
-    padding-left: 20px;
-    width: 200px;
+    padding-left: 70px;
+    width: 100px;
 }
 
 .shoptextcontainer {
