@@ -15,8 +15,8 @@ div {
  
 }
 
-.shopcontainer {
-    height: 3000px;
+.shoporiginalcontainer {
+    height: 1300px;
 }
 
 
@@ -37,7 +37,7 @@ div {
     font-size: 4rem;
     margin-right: auto;
     margin-left: auto;
-    width: 130px;
+    width: 510px;
 }
 
 .shopsinglecontaineroriginal {
@@ -46,12 +46,11 @@ div {
     height: 250px;
     width: 700px;
     margin-top: 100px;
-    background-color: pink;
 }
 
 .originalsingleimg img {
     height: 200px;
-    padding-left: 61px;
+    padding-left: 60px;
     padding-top: 25px;
     float: left;
 }
@@ -61,7 +60,8 @@ div {
     height: 100px;
     width: 350px;
     float: right;
-    margin-top: 70px;
+    margin-top: 50px;
+    padding-right: 5px;
 }
 
 .buytextoutline {
@@ -78,20 +78,30 @@ div {
     margin-left: 35px;
 }
 
-.duffsingletextoutline a {
+.dufftextoutline a {
     text-decoration: none;
     color: black;
 }
 
-.duffsingletextoutline .active {
+.dufftextoutline .active {
     background-color: #F2BA1A;
     text-decoration: none; 
 }
 
-.duffsingletextoutline a:hover{
+.dufftextoutline a:hover{
     background-color: #F2BA1A;
     text-decoration: none;
 }
+
+.pricebox {
+    height: 20px;
+    width: 320px;
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    float: right;
+}
+
 
 
 .shop3packcontaineroriginal {
@@ -100,7 +110,6 @@ div {
     height: 250px;
     width: 700px;
     margin-top: 100px;
-    background-color: yellow;
 }
 
 .original3packimg img {
@@ -108,12 +117,7 @@ div {
     padding-top: 50px;
     padding-right: 10px;
     float: left;
-    background-color: blue;
 }
-
-
-
-
 
 
 .shop6packcontaineroriginal {
@@ -122,19 +126,39 @@ div {
     height: 250px;
     width: 700px;
     margin-top: 100px;
-    background-color: blue;
+}
+
+.original6packimg img {
+    height: 120px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    float: left;
+}
+
+.original6packimg {
+    width: 250px;
+}
+
+.lastdufforiginalbox {
+    height: 100px;
+    width: 350px;
+    float: right;
+    margin-top: -65px;
+    padding-right: 5px;
 }
 
 
-.shoppartypackcontaineroriginal {
-    margin-left: auto;
+.shopzerocontainer {
+    height: 1300px;
+}
+
+.shoptextzero {
+    font-family: 'Concert One', cursive;
+    font-size: 4rem;
     margin-right: auto;
-    height: 250px;
-    width: 700px;
-    margin-top: 100px;
-    background-color: purple;
+    margin-left: auto;
+    width: 415px;
 }
-
 
 .shopzerosinglecontainer {
     margin-left: auto;
@@ -142,7 +166,6 @@ div {
     height: 250px;
     width: 700px;
     margin-top: 100px;
-    background-color: pink;
 }
 
 .shopzero3packcontainer {
@@ -151,7 +174,6 @@ div {
     height: 250px;
     width: 700px;
     margin-top: 100px;
-    background-color: yellow;
 }
 
 .shopzero6packcontainer {
@@ -160,18 +182,83 @@ div {
     height: 250px;
     width: 700px;
     margin-top: 100px;
-    background-color: blue;
 }
 
 
-.shopzeropartypackcontainer {
+.shopsinglecontainerzero {
     margin-left: auto;
     margin-right: auto;
     height: 250px;
     width: 700px;
     margin-top: 100px;
-    background-color: purple;
 }
+
+.zerosingleimg img {
+    height: 200px;
+    padding-left: 60px;
+    padding-top: 25px;
+    float: left;
+}
+
+
+.duffzerobox {
+    height: 100px;
+    width: 350px;
+    float: right;
+    margin-top: 50px;
+    padding-right: 5px;
+}
+
+.buytextoutline {
+    outline: solid 7px #A61C20;
+    width: 350px;
+    height: 100px;
+    float: right;
+}
+
+.shop3packcontainerzero {
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 700px;
+    margin-top: 100px;
+}
+
+.zero3packimg img {
+    height: 130px;
+    padding-top: 50px;
+    padding-right: 10px;
+    float: left;
+}
+
+
+.shop6packcontainerzero {
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 700px;
+    margin-top: 100px;
+}
+
+.zero6packimg img {
+    height: 120px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    float: left;
+}
+
+.zero6packimg {
+    width: 250px;
+}
+
+.lastduffzerobox {
+    height: 100px;
+    width: 350px;
+    float: right;
+    margin-top: -65px;
+    padding-right: 5px;
+}
+
 
 
 .bottomcontainer {
