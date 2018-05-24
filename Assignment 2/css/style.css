@@ -15,6 +15,12 @@ div {
  
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .navigation {
     margin-left: auto;
     margin-right: auto;
@@ -22,70 +28,52 @@ div {
     top: 0;
     background-color: white;
     width: 100%;
-    height: 90px;
+    height: 80px;
     font-family: 'Lato', sans-serif;
 }
 
 .navigationcontent {
     height: 80px;
+    max-width: 960px;
+    
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
-}
-
-.firstlinks {
-    color: red;
-    float: right;
-    font-size: 1.4rem;
-    padding-top: 50px;
 }
 
 .dufflogo {
     float: left;
     padding-top: 10px;
+    
 }
 
 .dufflogo img {
-    height: 120px;
+    max-width: 200px;
 }
 
-.secondlinks {
+.links {
     color: black;
-    float: right;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.firstlinks a {
+.links a {
     color: black;
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
+    float: right;
 }
 
-.firstlinks .active {
-    color: #DB1F26;
-    text-decoration: underline #DB1F26; 
-}
-
-.firstlinks a:hover{
+.links .active {
     color: #DB1F26;
     text-decoration: underline #DB1F26;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.secondlinks a {
-    color: black;
-    text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.secondlinks .active {
-    color: #DB1F26;
-    text-decoration: underline #DB1F26;
-}
-
-.secondlinks a:hover{
+.links a:hover{
     color: #DB1F26;
     text-decoration: underline #DB1F26;
 }
@@ -99,12 +87,12 @@ div {
 .galleryimage1 {
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    max-width: 1200px;
     padding-top: 60px;
 }
 
 .galleryimage1 img {
-    width: 1200px;
+    
 }
 
 .galleryimage2 img {
@@ -431,18 +419,27 @@ div {
 .facebookicon {
     height: 20px;
     width: 20px;
-    font-size: 1.8rem;
-    padding-top: 5px;
+    font-size: 2rem;
     float: left;
 }
 
 .instagramicon {
     height: 20px;
     width: 20px;
-    font-size: 1.8rem;
-    padding-top: 5px;
+    font-size: 2rem;
     float: left;
     padding-left: 15px;
 }
 
 
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    margin-right: -4px;
+}
