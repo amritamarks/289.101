@@ -21,6 +21,8 @@ img {
   height: auto;
 }
 
+
+
 .navigation {
     margin-left: auto;
     margin-right: auto;
@@ -48,6 +50,7 @@ img {
 
 .dufflogo img {
     max-width: 200px;
+    
 }
 
 .links {
@@ -81,7 +84,6 @@ img {
 .gallerybackground {
     width: 100%;
     background-color: white;
-    padding-bottom: 45px;
 }
 
 .galleryimage1 {
@@ -101,7 +103,7 @@ img {
 }
 
 .aboutcontents {
-    height: 710px;
+    height: auto;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
@@ -121,22 +123,27 @@ img {
 
 .abouttext {
     font-family: 'Concert One', cursive;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-right: auto;
     margin-left: auto;
-    width: 450px;
+    max-width: 340px;
+    display: block;
+    padding-top: 10px;
 }
 
 .aboutimg {
-    width: 1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .aboutimg img {
     background-color: blue;
     float: left;
-    height: 600px;
+    display: block;
+    max-width: 100%;
+    max-height: 600px;
 }
 
 .abouttextbox {
