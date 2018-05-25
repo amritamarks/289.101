@@ -36,8 +36,7 @@ img {
 
 .navigationcontent {
     height: 80px;
-    max-width: 960px;
-    
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -107,8 +106,6 @@ img {
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 .redline {
@@ -150,7 +147,7 @@ img {
 }
 
 .abouttextbox {
-    width: 600px;
+    width: auto;
     height: auto;
 }
 
@@ -158,7 +155,7 @@ img {
     width: auto;
     height: auto;
     padding-left: 20px;
-    padding-top: 100px;
+    margin-top: 80px;
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
     color: #A61C20;
@@ -169,13 +166,12 @@ img {
 
 .abouttextbody {
     padding-left: 20px;
-    padding-top: 50px;
+    padding-top: 30px;
     width: auto;
     height: auto;
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     color: black;
-    background-color: yellow;
     margin-left: auto;
     margin-right: auto;
     max-width: 370px;
@@ -189,8 +185,7 @@ img {
     font-size: 1rem;
     color: black;
     padding-top: 10px;
-    padding-bottom: 50px;
-    background-color: blue;
+    padding-bottom: 70px;
     margin-left: auto;
     margin-right: auto;
     width: auto;
@@ -198,7 +193,7 @@ img {
 
 
 .shopcontainer {
-    height: 750px;
+    height: auto;
 }
 
 .shoptext {
@@ -210,33 +205,49 @@ img {
     padding-top: 10px;
 }
 
-.imgcontainer {
-    height: 500px;
-    width: 250px;
-    padding-left: 300px;
-    float: left;
+.imgcontaineroriginal {
+    height: auto;
+    width: auto;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+
+.imgcontainerzero {
+    height: auto;
+    width: auto;
+    padding-left: 0px;
     margin-top: 20px;
 }
 
 .shopimg1 img {
     width: 100px;
-    padding-top: 50px;
-    padding-left: 70px;
-    
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .shopimg2 img {
-    padding-top: 50px;
-    padding-left: 70px;
+    margin-top: 75px;
+    margin-bottom: -40px;
     width: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.shoptextcontainer {
-    height: 400px;
-    width: 500px;
-    padding-left: 100px;
-    float: left;
-    margin-top: 120px;
+.shoptextcontaineroriginal {
+    max-height: 400px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+
+.shoptextcontainerzero {
+    max-height: 400px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
 }
 
 .shoporiginaltextoutline {
@@ -244,6 +255,8 @@ img {
     width: 400px;
     height: 100px;
     float: left;
+    margin-bottom: 20px;
+    margin-top: -20px;
 }
 
 .shoporiginaltext {
@@ -281,7 +294,8 @@ img {
     width: 400px;
     height: 100px;
     float: left;
-    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-top: 135px;
 }
 
 .shopzerotext {
@@ -309,14 +323,14 @@ img {
 .zeroprice {
     height: 20px;
     width: 300px;
-    margin-top: 220px;
     font-family: 'Lato', sans-serif;
     font-size: 0.8rem;
 }
 
 
 .contactcontainer {
-    height: 550px;
+    height: auto;
+    margin-top: 100px;
 }
 
 .contacttext {
