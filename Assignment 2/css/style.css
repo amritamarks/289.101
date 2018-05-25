@@ -107,6 +107,8 @@ img {
     background-color: white;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .redline {
@@ -121,69 +123,77 @@ img {
     background-color: #F2BA1A;
 }
 
+
 .abouttext {
     font-family: 'Concert One', cursive;
     font-size: 3rem;
     margin-right: auto;
     margin-left: auto;
     max-width: 340px;
-    display: block;
     padding-top: 10px;
 }
 
 .aboutimg {
-    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     
 }
 
 .aboutimg img {
-    background-color: blue;
-    float: left;
     display: block;
     max-width: 100%;
     max-height: 600px;
-}
-
-.abouttextbox {
-    width: 1200px;
-    height: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.abouttextbox {
+    width: 600px;
+    height: auto;
+}
+
 .aboutslogan {
-    width: 380px;
-    height: 20px;
-    float: left;
-    padding-left: 100px;
+    width: auto;
+    height: auto;
+    padding-left: 20px;
     padding-top: 100px;
     font-family: 'Lato', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #A61C20;
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .abouttextbody {
-    float: left;
-    padding-left: 100px;
-    padding-top: 100px;
-    width: 400px;
-    height: 80px;
+    padding-left: 20px;
+    padding-top: 50px;
+    width: auto;
+    height: auto;
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     color: black;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 370px;
 }
 
 .abouttextbody2 {
-    float: left;
-    padding-left: 100px;
-    width: 400px;
-    height: 80px;
+    padding-left: 20px;
+    max-width: 370px;
+    height: auto;
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
     color: black;
     padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
 }
 
 
@@ -192,11 +202,12 @@ img {
 }
 
 .shoptext {
+    max-width: 100px;
     font-family: 'Concert One', cursive;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-right: auto;
     margin-left: auto;
-    width: 130px;
+    padding-top: 10px;
 }
 
 .imgcontainer {
@@ -309,11 +320,12 @@ img {
 }
 
 .contacttext {
+    max-width: 160px;
     font-family: 'Concert One', cursive;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-right: auto;
     margin-left: auto;
-    width: 220px;
+    padding-top: 10px;
 }
 
 .contactcontent {
