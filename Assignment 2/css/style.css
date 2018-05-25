@@ -343,27 +343,29 @@ img {
 }
 
 .contactcontent {
-    height: 200px;
-    margin-top: 110px;
-    width: 650px;
+    height: auto;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    width: auto;
+    background-color: pink;
 }
 
 .fullname {
-    height: 30px;
+    height: auto;
 }
 
 .fullnametext {
     float: left;
+    margin-left: 100px;
     font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .fullnametextbox {
-    float: right;
+    float: left;
     height: 20px;
-    width: 500px;
+    width: auto;
     padding-top: 5px;
 }
 
@@ -374,15 +376,15 @@ img {
 
 .emailtext {
     float: left;
+    margin-left: 100px;
     font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
-    padding-left: 45px;
+    font-size: 1.2rem;
 }
 
 .emailtextbox {
-    float: right;
+    float: left;
     height: 20px;
-    width: 500px;
+    width: auto;
     padding-top: 5px;
 }
 
@@ -393,15 +395,15 @@ img {
 
 .phonetext {
     float: left;
+    margin-left: 100px;
     font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
-    padding-left: 45px;
+    font-size: 1.2rem;
 }
 
 .phonetextbox {
-    float: right;
+    float: left;
     height: 20px;
-    width: 500px;
+    width: auto;
     padding-top: 5px;
 }
 
@@ -412,16 +414,16 @@ img {
 
 .messagetext {
     float: left;
+    margin-left: 100px;
     font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
-    padding-left: 16px;
+    font-size: 1.2rem;
 }
 
 .messagetextbox {
-    float: right;
+    float: left;
     height: 20px;
-    width: 500px;
-    padding-top: 10px;
+    width: auto;
+    padding-top: 5px;
 }
 
 .required {
@@ -431,6 +433,7 @@ img {
 
 .requiredtext {
     float: right;
+    margin-right: 10px;
     font-family: 'Lato', sans-serif;
     font-size: 1rem; 
 }
