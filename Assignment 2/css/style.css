@@ -266,17 +266,32 @@ img {
     padding-top: 20px;
 }
 
-.shoptextcontainer a {
+.shoptextcontaineroriginal a {
     text-decoration: none;
     color: black;
 }
 
-.shoptextcontainer .active {
+.shoptextcontaineroriginal .active {
     background-color: #F2BA1A;
     text-decoration: none; 
 }
 
-.shoptextcontainer a:hover{
+.shoptextcontaineroriginal a:hover{
+    background-color: #F2BA1A;
+    text-decoration: none;
+}
+
+.shoptextcontainerzero a {
+    text-decoration: none;
+    color: black;
+}
+
+.shoptextcontainerzero .active {
+    background-color: #F2BA1A;
+    text-decoration: none; 
+}
+
+.shoptextcontainerzero a:hover{
     background-color: #F2BA1A;
     text-decoration: none;
 }
@@ -344,11 +359,10 @@ img {
 
 .contactcontent {
     height: auto;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: auto;
-    background-color: pink;
 }
 
 .fullname {
@@ -433,14 +447,15 @@ img {
 
 .requiredtext {
     float: right;
-    margin-right: 10px;
+    margin-right: 50px;
     font-family: 'Lato', sans-serif;
     font-size: 1rem; 
+    padding-bottom: 50px;
 }
 
 
 .bottomcontainer {
-    height: 40px;
+    height: auto;
     background-color: #F2BA1A;
     width: 100%;
 }
