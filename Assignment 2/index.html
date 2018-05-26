@@ -40,15 +40,31 @@
     <!--font awesome-->
     <link href="/static/fontawesome/fontawesome.css" rel="stylesheet"><link href="/static/fontawesome/fa-brands.css" rel="stylesheet"><link href="/static/fontawesome/fa-regular.css" rel="stylesheet"><link href="/static/fontawesome/fa-solid.css" rel="stylesheet">
     
-    <!--hamburger menu-->
+
+   
+   <!-- SMOOTH SCROLL -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
     
-    
-     <!--outline - delete later-->
-    <style>
-        * { outline: #EEE solid 1px }
-    </style>
 
     
+
     
     </head>
 
@@ -106,6 +122,7 @@
             </div> 
         </div>
             
+        <div class="aboutcontents2">
         <div class="row">
             <div class="six columns"> 
                 <div class="aboutimg">
@@ -124,6 +141,8 @@
             </div>
         </div>
         
+        </div>
+        
         
         <div class="shopcontainer">
             <div class="row">
@@ -136,16 +155,16 @@
                 <div class="redline"></div>
             </div>
         </div>
-        
+        <div class="shopcontentscontainer">
             <div class="row">
-                <div class="six columns">
+                <div class="five columns">
                     <div class="imgcontaineroriginal">
                         <div class="shopimg1">
                             <img src="img/beer_colour.png"></div>
                     </div>
                 </div>
                 
-                <div class="six columns">
+                <div class="seven columns">
                     <div class="shoptextcontaineroriginal"><a href="shoporiginal.html"div class="shoporiginaltextoutline">
                         <div class="shoporiginaltext">Buy Duff Original</div>
                     </a>
@@ -157,16 +176,15 @@
                     </div>
                 </div>
             </div>
-        
             <div class="row">
-                <div class="six columns">
+                <div class="five columns">
                     <div class="imgcontainerzero">
                         <div class="shopimg2">
                             <img src="img/Duff_bw.png"></div>
                     </div>
                 </div>
                 
-                <div class="six columns">
+                <div class="seven columns">
                     <div class="shoptextcontainerzero">
                         <a href="shopzero.html"div class="shopzerotextoutline">
                             <div class="shopzerotext">Buy Duff Zero</div>
@@ -178,7 +196,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
+            </div>
            
         
         <div class="contactcontainer">
@@ -201,11 +220,11 @@
             
         <div class="row">
             <div class="fullname">
-                <div class="three columns">
+                <div class="four columns">
             <div class="fullnametext">Full Name*</div>
             
             </div>
-                <div class="nine columns">
+                <div class="eight columns">
                 <div class="fullnametextbox">
                     <input type ="text" name="fullnametextbox" size="82px"></div>
                 </div>
@@ -214,11 +233,11 @@
         
             <div class="row">
                 <div class="email">
-                    <div class="three columns">
+                    <div class="four columns">
                         <div class="emailtext">Email*</div>
                     </div>
                     
-                    <div class="nine columns">
+                    <div class="eight columns">
                         <div class="emailtextbox">
                             <input type ="text" name="emailtextbox" size="82px"></div>
                     </div>
@@ -227,10 +246,10 @@
             
             <div class="row">
                 <div class="phone">
-                    <div class="three columns">
+                    <div class="four columns">
                         <div class="phonetext">Phone</div></div>
                     
-                    <div class="nine columns">
+                    <div class="eight columns">
                         <div class="phonetextbox"><input type ="text" name="phonetextbox" size="82px"></div>
                     </div>
                 </div>
@@ -238,11 +257,11 @@
             
             <div class="row">
                 <div class="message">
-                    <div class="three columns">
+                    <div class="four columns">
                         <div class="messagetext">Message*</div>
                     </div>
                     
-                    <div class="nine columns">
+                    <div class="eight columns">
                         <div class="messagetextbox"><input type="text" name="messagetextbox" size="82px"></div>
                     </div>
                 </div>

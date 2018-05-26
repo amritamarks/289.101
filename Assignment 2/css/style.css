@@ -108,6 +108,13 @@ img {
     margin-right: auto;
 }
 
+.aboutcontents2 {
+    background-color: white;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .redline {
     height: 5px;
     background-color: #A61C20;
@@ -155,7 +162,7 @@ img {
     width: auto;
     height: auto;
     padding-left: 20px;
-    margin-top: 80px;
+    margin-top: 70px;
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
     color: #A61C20;
@@ -185,7 +192,7 @@ img {
     font-size: 1rem;
     color: black;
     padding-top: 10px;
-    padding-bottom: 70px;
+    margin-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
     width: auto;
@@ -205,6 +212,12 @@ img {
     padding-top: 10px;
 }
 
+.shopcontentscontainer {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .imgcontaineroriginal {
     height: auto;
     width: auto;
@@ -222,6 +235,7 @@ img {
 .shopimg1 img {
     width: 100px;
     padding-top: 25px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -363,6 +377,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: auto;
+    max-width: 1000px;
 }
 
 .fullname {
@@ -371,16 +386,17 @@ img {
 
 .fullnametext {
     float: left;
-    margin-left: 100px;
+    margin-left: 175px;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
+    margin-top: 10px;
 }
 
 .fullnametextbox {
     float: left;
     height: 20px;
     width: auto;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .email {
@@ -390,16 +406,17 @@ img {
 
 .emailtext {
     float: left;
-    margin-left: 100px;
+    margin-left: 210px;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
+    margin-top: 15px;
 }
 
 .emailtextbox {
     float: left;
     height: 20px;
     width: auto;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .phone {
@@ -409,16 +426,17 @@ img {
 
 .phonetext {
     float: left;
-    margin-left: 100px;
+    margin-left: 205px;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
+    margin-top: 15px;
 }
 
 .phonetextbox {
     float: left;
     height: 20px;
     width: auto;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .message {
@@ -428,21 +446,22 @@ img {
 
 .messagetext {
     float: left;
-    margin-left: 100px;
+    margin-left: 180px;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
+    margin-top: 15px;
 }
 
 .messagetextbox {
     float: left;
     height: 20px;
     width: auto;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .required {
     height: 20px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .requiredtext {
@@ -494,3 +513,4 @@ img {
     text-align: left;
     margin-right: -4px;
 }
+
