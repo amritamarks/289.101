@@ -16,7 +16,8 @@ div {
 }
 
 .shoporiginalcontainer {
-    height: 1300px;
+    height: auto;
+    margin-top: 100px;
 }
 
 
@@ -28,10 +29,8 @@ div {
 }
 
 .yellowrectangle {
-    height: 80px;
+    height: auto;
     background-color: #F2BA1A;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .shoptext {
@@ -39,45 +38,51 @@ div {
     font-size: 4rem;
     margin-right: auto;
     margin-left: auto;
-    width: 510px;
+    max-width: 510px;
+    text-align: center;
 }
 
 .shopsinglecontaineroriginal {
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 700px;
+    text-align: center;
+    height: auto;
+    max-width: 700px;
     margin-top: 100px;
 }
 
 .originalsingleimg img {
     height: 200px;
-    padding-left: 60px;
-    padding-top: 25px;
-    float: left;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 .dufforiginalbox {
     height: 100px;
     width: 350px;
-    float: right;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 50px;
     padding-right: 5px;
 }
 
 .buytextoutline {
     outline: solid 7px #A61C20;
-    width: 350px;
+    max-width: 350px;
     height: 100px;
-    float: right;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 
 .duffsingletext {
     font-family: 'Concert One', cursive;
     font-size: 2.5rem;
     padding-top: 20px;
-    margin-left: 35px;
+    text-align: center;
 }
 
 .dufforiginalbox a {
@@ -97,36 +102,49 @@ div {
 
 .pricebox {
     height: 20px;
-    width: 320px;
-    padding-top: 20px;
+    width: auto;
+    margin-top: 20px;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
-    float: right;
+    text-align: center;
+    margin-right: 175px;
 }
 
-
+.priceboxsingle {
+    height: 20px;
+    width: auto;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-right: 175px;
+    padding-top: 120px;
+}
 
 .shop3packcontaineroriginal {
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 700px;
+    text-align: center;
+    height: auto;
+    max-width: 700px;
     margin-top: 100px;
 }
 
 .original3packimg img {
     height: 130px;
-    padding-top: 50px;
-    padding-right: 10px;
-    float: left;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 
 .shop6packcontaineroriginal {
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 700px;
+    height: auto;
+    margin-bottom: 100px;
+    max-width: 700px;
     margin-top: 100px;
 }
 
@@ -134,18 +152,25 @@ div {
     height: 120px;
     padding-bottom: 5px;
     padding-left: 8px;
-    float: left;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .original6packimg {
     width: 250px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .lastdufforiginalbox {
     height: 100px;
     width: 350px;
-    float: right;
-    margin-top: -65px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 65px;
     padding-right: 5px;
 }
 
@@ -168,7 +193,7 @@ div {
     height: 25px;
     width: 125px;
     float: left;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 20px;
     font-size: 1.2rem;
     font-family: 'Lato', sans-serif;
@@ -191,7 +216,7 @@ div {
 }
 
 .shopzerocontainer {
-    height: 1300px;
+    height: auto;
 }
 
 .shoptextzero {
@@ -199,33 +224,35 @@ div {
     font-size: 4rem;
     margin-right: auto;
     margin-left: auto;
-    width: 415px;
+    max-width: 415px;
+    text-align: center;
 }
 
 .shopzerosinglecontainer {
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 700px;
+    text-align: center;
+    height: auto;
+    max-width: 700px;
     margin-top: 100px;
 }
 
 .shopzero3packcontainer {
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 700px;
+    text-align: center;
+    height: auto;
+    max-width: 700px;
     margin-top: 100px;
 }
 
 .shopzero6packcontainer {
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 700px;
+    height: auto;
+    max-width: 700px;
     margin-top: 100px;
 }
-
 
 .shopsinglecontainerzero {
     margin-left: auto;
@@ -237,12 +264,14 @@ div {
 
 .zerosingleimg img {
     height: 200px;
-    padding-left: 60px;
-    padding-top: 25px;
-    float: left;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
+    
 .duffzerobox {
     height: 100px;
     width: 350px;
@@ -261,16 +290,18 @@ div {
 .shop3packcontainerzero {
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 700px;
+    text-align: center;
+    height: auto;
+    max-width: 700px;
     margin-top: 100px;
 }
 
 .zero3packimg img {
-    height: 130px;
-    padding-top: 50px;
-    padding-right: 10px;
-    float: left;
+    height: 140px;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 
@@ -283,27 +314,30 @@ div {
 }
 
 .zero6packimg img {
-    height: 120px;
+    height: 140px;
     padding-bottom: 5px;
     padding-left: 8px;
-    float: left;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .zero6packimg {
     width: 250px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+
+.redline {
+    height: 5px;
+    background-color: #A61C20;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.lastduffzerobox {
-    height: 100px;
-    width: 350px;
-    float: right;
-    margin-top: -65px;
-    padding-right: 5px;
-}
-
-
-
-.bottomcontainer {
+.yellowcontainer {
     height: 40px;
     background-color: #F2BA1A;
     width: 100%;
