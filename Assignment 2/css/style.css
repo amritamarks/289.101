@@ -5,8 +5,7 @@
 body {
     background-color: white;
     margin: 0;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 
@@ -24,12 +23,16 @@ img {
 }
 
 
-#hamburger_btn img {
-    width: 50px !important;
-    height: 50px !important;
-    float: right;
+#hamburger_btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
+#hamburger img {
+    float: right;
+    position: fixed;
+}
 
 .navigation {
     margin-left: auto;
@@ -51,21 +54,31 @@ img {
 
 .dufflogo {
     float: left;
-    padding-top: 10px;
-    
+    padding-top: 20px;
 }
 
 .dufflogo img {
-    max-width: 200px;
-    
+    max-width: 190px;
+}
+
+
+.linkscontainer {
+    right: 100px;
+    top: 20px;
+    position: absolute;
+    background-color: white;
 }
 
 #links {
     color: black;
     font-size: 1.2rem;
-    padding-top: 50px;
+    float: right;
+    margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
+    position: fixed;
+    max-width: 50px;
 }
 
 #links a {
@@ -73,7 +86,7 @@ img {
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
-    float: right;
+    background-color: white;
 }
 
 #links .active {
@@ -81,12 +94,20 @@ img {
     text-decoration: underline #DB1F26;
     margin-left: auto;
     margin-right: auto;
+    background-color: #F2BA1A;
 }
 
 #links a:hover{
     color: #DB1F26;
     text-decoration: underline #DB1F26;
+    background-color: #F2BA1A;
 }
+
+
+
+
+
+
 
 .gallerybackground {
     width: 100%;
@@ -97,7 +118,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .galleryimage1 img {

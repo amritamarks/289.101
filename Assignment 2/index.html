@@ -3,6 +3,17 @@
 
 <head>
     
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119902209-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119902209-1');
+</script>
+
+    
       <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -60,56 +71,52 @@ $(function() {
 </script>
 <!-- End of SMOOTH SCROLL -->
     
-
-    
-
-    
     </head>
 
     <body>
         <!-- my navigation starts -->
-        
-        
-         <div class="navigation">
-          
-            <div class="twelve columns">
-                <div class="navigationcontent">
-                    <div class="six columns">
+        <div class="navigation">
+          <div class="row">
+            <div class="navigationcontent">
+                <div class="six columns">
                         <div class="dufflogo">
                         <img src="img/Duff_Logo.png"></div>
-                    </div>
-                    
-                    
-       
+                </div>
                     
             <div class="six columns">
-<!--                 <img id="hamburger_btn" src="img/hamburger_btn.svg.png" />-->
+            <img id="hamburger_btn" src="img/hamburger.svg" />
+            <div class="linkscontainer">
                 <div id="links">
-                <a href="#contact_anchor">Contact</a>
-                <a href="#shop_anchor">Shop</a>
-                <a href="#about_anchor">About</a>
                 <a href="#home_anchor">Home</a>
+                    <a href="#about_anchor">About</a>
+                    <a href="#shop_anchor">Shop</a>
+                <a href="#contact_anchor">Contact</a>
+                
                 </div>
+                </div>
+                </div>
+                </div>
+             </div>
+               
             </div>
-            </div>
-            </div>
-            </div>
-        
-<!--
-<script>
+           
+        <!--hamburger menu -->
+        <script>
     $(window).resize(function() {
-        if (width >=960 ) {
-            $(“#links”).hide();
-              }
-              });
-            
-            $(‘#hamburger_btn’).click(function() {
-              $(“#links”).slideToggle();
-              });
-</script>
--->
-
-        
+        if(width >=875 ){
+            $("#hamburger_btn").hide();
+            $("#links").show();
+        }
+        else {
+            $("#hamburger_btn").show();
+            $("#links").hide();
+        }
+    });
+    document.getElementById('hamburger_btn').addEventListener('click', function(){
+        $('#links').slideToggle();
+    });
+        </script>
+    
         <div class="gallerybackground">
         <h2 id="home_anchor"></h2>
             
@@ -313,6 +320,7 @@ $(function() {
             </div>
         </div>
         
+     
        
     
     </body>
