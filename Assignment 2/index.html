@@ -24,8 +24,6 @@
     <!--stylesheet-->
     <link rel="stylesheet"
           href="css/style.css">
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <!--fancybox-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -69,10 +67,10 @@ $(function() {
     </head>
 
     <body>
-        
         <!-- my navigation starts -->
         
-        <div class="navigation">
+        
+         <div class="navigation">
           
             <div class="twelve columns">
                 <div class="navigationcontent">
@@ -80,16 +78,37 @@ $(function() {
                         <div class="dufflogo">
                         <img src="img/Duff_Logo.png"></div>
                     </div>
-                
+                    
+                    
+       
+                    
             <div class="six columns">
-                <div class="links">
-                <a href="#home_anchor">Home</a><a href="#about_anchor">About</a>
-                <a href="#shop_anchor">Shop</a><a href="#contact_anchor">Contact</a>
+<!--                 <img id="hamburger_btn" src="img/hamburger_btn.svg.png" />-->
+                <div id="links">
+                <a href="#contact_anchor">Contact</a>
+                <a href="#shop_anchor">Shop</a>
+                <a href="#about_anchor">About</a>
+                <a href="#home_anchor">Home</a>
                 </div>
             </div>
             </div>
             </div>
             </div>
+        
+<!--
+<script>
+    $(window).resize(function() {
+        if (width >=960 ) {
+            $(“#links”).hide();
+              }
+              });
+            
+            $(‘#hamburger_btn’).click(function() {
+              $(“#links”).slideToggle();
+              });
+</script>
+-->
+
         
         <div class="gallerybackground">
         <h2 id="home_anchor"></h2>
@@ -220,49 +239,47 @@ $(function() {
             
         <div class="row">
             <div class="fullname">
-                <div class="four columns">
+                <div class="two columns">
             <div class="fullnametext">Full Name*</div>
             
             </div>
-                <div class="eight columns">
-                <div class="fullnametextbox">
-                    <input type ="text" name="fullnametextbox" size="82px"></div>
-                </div>
+                <div class="ten columns">
+                    <input class="fullnametextbox" type ="text" name="fullnametextbox" ></div>
             </div>
             </div>
         
             <div class="row">
                 <div class="email">
-                    <div class="four columns">
+                    <div class="two columns">
                         <div class="emailtext">Email*</div>
                     </div>
                     
-                    <div class="eight columns">
-                        <div class="emailtextbox">
-                            <input type ="text" name="emailtextbox" size="82px"></div>
+                    <div class="ten columns">
+                            <input class="emailtextbox" type ="text" name="emailtextbox" >
                     </div>
                 </div>
             </div>
             
             <div class="row">
                 <div class="phone">
-                    <div class="four columns">
+                    <div class="two columns">
                         <div class="phonetext">Phone</div></div>
                     
-                    <div class="eight columns">
-                        <div class="phonetextbox"><input type ="text" name="phonetextbox" size="82px"></div>
+                    <div class="ten columns">
+                        <input class="phonetextbox" type ="text" name="phonetextbox" >
                     </div>
                 </div>
             </div>
             
             <div class="row">
                 <div class="message">
-                    <div class="four columns">
+                    <div class="two columns">
                         <div class="messagetext">Message*</div>
                     </div>
                     
-                    <div class="eight columns">
-                        <div class="messagetextbox"><input type="text" name="messagetextbox" size="82px"></div>
+                    <div class="ten columns">
+                        
+                            <input class="messagetextbox" type="text" name="messagetextbox" >
                     </div>
                 </div>
             </div>

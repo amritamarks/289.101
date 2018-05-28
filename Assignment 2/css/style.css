@@ -15,12 +15,20 @@ div {
  
 }
 
+
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
+
+#hamburger_btn img {
+    width: 50px !important;
+    height: 50px !important;
+    float: right;
+}
 
 
 .navigation {
@@ -52,7 +60,7 @@ img {
     
 }
 
-.links {
+#links {
     color: black;
     font-size: 1.2rem;
     padding-top: 50px;
@@ -60,7 +68,7 @@ img {
     margin-right: auto;
 }
 
-.links a {
+#links a {
     color: black;
     text-decoration: none;
     padding-left: 10px;
@@ -68,14 +76,14 @@ img {
     float: right;
 }
 
-.links .active {
+#links .active {
     color: #DB1F26;
     text-decoration: underline #DB1F26;
     margin-left: auto;
     margin-right: auto;
 }
 
-.links a:hover{
+#links a:hover{
     color: #DB1F26;
     text-decoration: underline #DB1F26;
 }
@@ -386,7 +394,7 @@ img {
 
 .fullnametext {
     float: left;
-    margin-left: 175px;
+    margin-left: 25px;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
     margin-top: 10px;
@@ -395,18 +403,16 @@ img {
 .fullnametextbox {
     float: left;
     height: 20px;
-    width: auto;
-    padding-top: 10px;
+    width: 100%;
 }
 
 .email {
-    height: 30px;
-    margin-top: 15px;
+    height: auto;
 }
 
 .emailtext {
     float: left;
-    margin-left: 210px;
+    margin-left: 60px;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
     margin-top: 15px;
@@ -415,18 +421,16 @@ img {
 .emailtextbox {
     float: left;
     height: 20px;
-    width: auto;
-    padding-top: 10px;
+    width: 100%;
 }
 
 .phone {
-    height: 30px;
-    margin-top: 15px;
+    height: auto;
 }
 
 .phonetext {
     float: left;
-    margin-left: 205px;
+    margin-left: 55px;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
     margin-top: 15px;
@@ -435,38 +439,35 @@ img {
 .phonetextbox {
     float: left;
     height: 20px;
-    width: auto;
-    padding-top: 10px;
+    width: 100%;
 }
 
 .message {
-    height: 30px;
-    margin-top: 15px;
+    height: auto;
 }
 
 .messagetext {
     float: left;
-    margin-left: 180px;
+    margin-left: 30px;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .messagetextbox {
     float: left;
     height: 20px;
-    width: auto;
-    padding-top: 10px;
+    width: 100%;
 }
 
 .required {
-    height: 20px;
-    margin-top: 30px;
+    height: auto;
+    margin-top: 5px;
 }
 
 .requiredtext {
     float: right;
-    margin-right: 50px;
+    margin-right: 20px;
     font-family: 'Lato', sans-serif;
     font-size: 1rem; 
     padding-bottom: 50px;
@@ -487,18 +488,20 @@ img {
 }
 
 .facebookicon {
-    height: 20px;
-    width: 20px;
+    height: auto;
+    width: auto;;
     font-size: 2rem;
     float: left;
+    margin-top: 2px;
 }
 
 .instagramicon {
-    height: 20px;
-    width: 20px;
+    height: auto;
+    width: auto;
     font-size: 2rem;
     float: left;
-    padding-left: 15px;
+    padding-left: 10px;
+    margin-top: 2px;
 }
 
 
